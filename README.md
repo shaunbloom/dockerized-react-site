@@ -1,5 +1,5 @@
 # dockerized-react-site
-Exercise to create a docker image that will pull a react site's src code from a git repository, build it in the image and serve it over localhost from the container.
+Exercise to create a docker image that will pull a react site's src code from a git repository, install all needed packages to build and run it and then build and compile the src for the site directly in the image. At this point you can run a container on port 80 based off the image just built called "dockerized-react-site". Navigating to http://localhost should bring up the react site completely functional.
 
 
 - Run docker client
