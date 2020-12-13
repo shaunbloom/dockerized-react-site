@@ -1,0 +1,9 @@
+# create your drupal and postgres config here, based off the last assignment
+version: '2'
+
+services:
+  nginx:
+    image: shauns-site
+    build:
+      context: .
+      dockerfile: Dockerfile
