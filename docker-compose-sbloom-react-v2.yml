@@ -3,7 +3,7 @@ version: '2'
 
 services:
   nginx:
-    image: shauns-site
+    image: dockerized-react-site
     build:
       context: .
       dockerfile: Dockerfile
